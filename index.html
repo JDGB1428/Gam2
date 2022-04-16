@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sistema de Seguimiento Satelital GAM2"</title>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="../GPS GAM2/html/css/styles.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+	<script src="js/modernizr.custom.js"></script>
+	
+<body>
+<div class="social_w">
+<a href="https://wa.me/573226020413?text=Hola%2C%20deseo%20más%20información!">
+<button class="btn_social_w"><i class="fab fa-whatsapp"></i></button>
+</a>
+	  </div>
+
+	<div class="loader">
+		<div class="project-loader">
+			<div class="bubblingG">
+				<span id="bubblingG_1"></span>
+				<span id="bubblingG_2"></span>
+				<span id="bubblingG_3"></span>
+			</div>
+		</div>
+	</div>
+	<div class="loading" id="wrapper">
+		<!-- Fixed navbar -->
+		<div class="navbar navbar-smak navbar-fixed-top " id="navbar" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
+					<a class="navbar-brand animate" href="#"><img src="img/logo.png" alt="logo1"></a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right animate">
+						<li><a href="#home">Inicio</a></li>
+						<li><a href="#contact">Contáctenos</a></li>
+						<li><input name="enlace" class="btningresar" type="button" value="Acceder" onclick="$(location).attr('href','https://pidemeaqui.com');" /> </li>	
+					</ul>
+					
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+		</div>
+		<div style="position: fixed; z-index: -99; width: 100%; height: 100%"></div>
+		 <section id="home" class="home home-fullscreen">
+			<div class="slide text-slider-wrapper">
+				<div class="container">
+					<ul class="text-slider clearfix">
+						<li class="clearfix">
+							<span class="lead">Seguimiento de motos</span>
+							<h3 style="color: white;">Presione aquí si quiere tener más información acerca del servicio</h3>
+							<a href="https://wa.me/573226020413?text=Hola%2C%20deseo%20más%20información!" class="btn btn-primary outline-outward">Contactanos</a>
+						</li>
+						<li class="clearfix">
+							<span class="lead">Seguimiento de vehículos</span>
+							<h3 style="color: white;">Presione aquí si quiere tener más información acerca del servicio</h3>
+							<a href="https://wa.me/573226020413?text=Hola%2C%20deseo%20más%20información!" class="btn btn-primary outline-outward">Contactanos</a>
+						</li>
+						<li class="clearfix">
+							<span class="lead">Seguimiento de productos</span>
+							<h3 style="color: white;">Presione aquí si quiere tener más información acerca del servicio</h3>
+							<a href="https://wa.me/573226020413?text=Hola%2C%20deseo%20más%20información!" class="btn btn-primary outline-outward">Contactanos</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<a href="#services" class="go-to godown">
+				<span>
+					<span class="fa fa-angle-double-down fa-2x"></span>
+					<span class="fa fa-angle-double-down fa-2x"></span>
+					<span class="fa fa-angle-double-down fa-2x"></span>
+					<span class="fa fa-angle-double-down fa-2x"></span>
+					<span class="fa fa-angle-double-down fa-2x"></span>
+				</span>
+			</a>
+		</section>
+		<section id="services" class="gray">
+			<div class="container pad-bot-50">
+				<div class="heading">
+					<div>Nuestros servicios</div>
+					<h1>Funcionalidades</h1>
+					<div class="divider"><span></span></div>
+					<H3>Los GPS permite determinar en toda la tierra la posición de cualquier 
+						persona, objeto, terreno, con una precisión de hasta 
+						centímetros; lo habitual son unos pocos metros de precisión</h3>
+				</div>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="service-item fadeInDown">
+							<div class="circle circle-l"><i class="fa fa-sliders fa-3x" aria-hidden="true"></i></div>
+							<h3>Comando general</h3>
+							<p class="font-m">Son los comandos generales del GPS</p>
+							<p class="font-m">Apagado, encender, ETC</p>
+
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="service-item fadeInUp">
+							<div class="circle circle-l"><i class="fa fa-search fa-3x" aria-hidden="true"></i></div>
+							<h3>Seguimiento</h3>
+							<p class="font-m">Es un sistema que permite localizar cualquier objeto 
+                                  sobre la Tierra con una precisión de hasta 
+								centímetros, aunque lo común son unos pocos metros. </p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="service-item fadeInDown">
+							<div class="circle circle-l"><i class="fa fa-bell fa-3x" aria-hidden="true"></i></div>
+							<h3>Alarmas</h3>
+							<p class="font-m">Se detectará si el vehículo está siendo ocupado
+								con o sin usted</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="service-item fadeInUp">
+							<div class="circle circle-l"><i class="fa fa-gear fa-3x"></i></div>
+							<h3>Ubicación</h3>
+							<p class="font-m">Será monitoreado en tiempo real su ubicación</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="branded-section process">
+				<div class="masked">
+					<div class="container">
+						<div class="heading">
+							<h3 class="primary-color">Funcionalidades de los GPS </h3>
+							<p>Este apartado nos permite aprender más sobre el sitio web y los GPS </p>
+						</div>
+						<div class="row">
+							<div class="col-sm-2">
+								<div class="process-item ">
+									<i class="fa fa-mobile-retro fa-3x"></i>
+									<h3>Dispositivos</h3>
+									<p class="font-m">Agregar <p>Eliminar</p><p>Modificar</p></p>
+								</div>
+							</div>
+							<div class="col-sm-2">
+								<div class="process-item delay1">
+									<i class="fa fa-inbox fa-3x"></i>
+									<h3>Estado</h3>
+									<p class="font-m">Ubicación <p>Rutas</p></p>
+								</div>
+							</div>
+							<div class="col-sm-2">
+								<div class="process-item delay2">
+									<i class="fa fa-chart-bar fa-3x"></i>
+									<h3>Reportes</h3>
+									<p class="font-m">Ruta<p>Eventos</p><p>Viaje</p><p>Paradas</p><p>Gráfico</p></p>
+								</div>
+							</div>
+							<div class="col-sm-2">
+								<div class="process-item delay3">
+									<i class="fa fa-map-marker fa-3x"></i>
+									<h3>GeoCercas</h3>
+									<p class="font-m">Rango de objetivos <p>Límite de Rango</p></p>
+								</div>
+							</div>
+							<div class="col-sm-2">
+								<div class="process-item delay4">
+									<i class=" fa fa-truck fa-3x"></i>
+									<h3>Conductores</h3>
+									<p class="font-m">Agregar Conductores<p>Eliminar Conductores</p><p>Modificar Conductores</p><p>Identificación</p></p>
+								</div>
+							</div>
+							<div class="col-sm-2">
+								<div class="process-item delay5">
+									<i class="fa fa-calendar fa-3x"></i>
+									<h3>Eventos</h3>
+									<p class="font-m">Notificaciones del movimiento generales</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	
+		
+		<div class="title-cards">
+			<h2>Servicios que Ofrecemos</h2>
+		</div>
+	<div class="container-card">
+		
+	<div class="card">
+		<figure>
+			<img src="img/imagen1.jpg">
+		</figure>
+		<div class="contenido-card">
+			<h3>Instalaciones</h3>
+			<p>Carros 250.000$</p>
+			<p>Motos 180.000$</p>
+		</div>
+	</div>
+	
+	<div class="card">
+		<figure>
+			<img src="img/iMAGEN2.jpg">
+		</figure>
+		<div class="contenido-card">
+			<h3>Tarifas por moto</h3>
+			<p>1-10 Moto x dia 18000</p>
+			<p>10-50 vehiculos x dia 25000</p>
+			<p>10-50 vehiculos x dia 18000</p>
+			<p>10-50 vehiculos x dia 25000</p>
+			
+		</div>
+	</div>
+	</div>
+			
+			
+		</section>
+		<section id="clients">
+			<div class="container">
+				<div class="heading">
+					<div>Marcas de GPS</div>
+					<h1>A quienes les encanta trabajar con nosotras.</h1>
+					<div class="divider">
+						<span></span>
+					</div>
+					
+				</div>
+				<div class="row">
+					<ul class="client-slider clearfix" id="clint-slider">
+						<li><img src="img/clients/accurate.png" alt="" class="grayscale"></li>
+						<li><img src="img/clients/TOPTEN.png" alt="" class="grayscale"></li>
+						<li><img src="img/clients/accurate.png" alt="" class="grayscale"></li>
+						<li><img src="img/clients/TOPTEN.png" alt="" class="grayscale"></li>
+						<li><img src="img/clients/accurate.png" alt="" class="grayscale"></li>
+						<li><img src="img/clients/TOPTEN.png" alt="" class="grayscale"></li>
+						<li><img src="img/clients/accurate.png" alt="" class="grayscale"></li>
+						<li><img src="img/clients/TOPTEN.png" alt="" class="grayscale"></li>
+						
+					</ul>
+				</div>
+				<ul class="client-nav">
+					<li id="client-prev"></li>
+					<li id="client-next"></li>
+				</ul>
+			</div>
+			<div class="branded-section quote">
+				<div class="masked">
+					<div class="container">
+						<div id="testimonials" class="bxslider clearfix">
+							<blockquote>
+								<p>La tecnología es el inicio a un futuro soñado </p>
+								<div class="divider">
+									<span></span>
+								</div>
+								Albert Einstein
+							</blockquote>
+							<blockquote>
+								<p>Seguimos avanzando, abriendo nuevas puertas y haciendo cosas nuevas, porque somos curiosos y la curiosidad nos sigue llevando por nuevos caminos.</p>
+								<div class="divider">
+									<span></span>
+								</div>
+								Walt Disney
+							</blockquote>
+							<blockquote>
+								<p>Conoces la regla de oro, ¿verdad, chico? Los que tienen el oro hacen las reglas.</p>
+								<div class="divider">
+									<span></span>
+								</div>
+								Aladdin
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="gray">
+			<div class="container">
+				<div class="heading">
+					<div>Contacta con nosotros</div>
+					<h1>Encuéntranos</h1>
+					<div class="divider">
+						<span></span>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-md-4 adress-element ">
+						<i class="fa fa-home fa-2x"></i>
+						<h3>Nuestra Dirección</h3>
+						<span class="font-l">La carolina </span>
+					</div>
+					<div class="col-md-4 adress-element delay2">
+						<i class="fa fa-comment fa-2x"></i>
+						<h3>Correo</h3>
+						<span class="font-l">examgle@gmail.com</span>
+					</div>
+					<div class="col-md-4 adress-element delay4">
+						<i class="fa fa-phone fa-2x"></i>
+						<h3>Nuestro Teléfono</h3>
+						<span class="font-l">3216489143</span>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<footer>
+			<div class="container">
+				<p>&copy; Copyright <a href="">Gam2.com.co</a> 2022 All rights reserved</p>
+				<a href="html/TerminosUso.html">Términos de Uso</a>
+				<a href="html/privacidad.html">Política de privacidad</a>
+				<a href="html/politicascookies.html">Política de cookies</a>
+			</div>
+
+		
+		</footer>
+	</div>
+	<!-- Load all jsavascrip files -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/jquery.label_better.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+	<script type="text/javascript" src="js/jquery.inview.js"></script>
+	<script type="text/javascript" src="js/countUp.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- <script src="js/grid.js"></script> -->
+	<script>
+	$(function() {
+		Grid.init();
+	});
+	</script>
+</body>
+</html>
